@@ -1,0 +1,45 @@
+footer {
+    background-color: silver;
+    color:black ;
+    padding: 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    width: 22%;
+    margin: 20px;
+}
+
+.footer-section h2 {
+    margin-top: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li i {
+    color: #333;
+    margin-right: 10px;
+}
+
+.footer-copyright {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
